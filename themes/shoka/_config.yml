@@ -15,7 +15,7 @@ images: images
 
 # themes/shoka/source/images/***
 favicon:
-  apple_touch_icon: /apple-touch-icon.png
+  apple_touch_icon: /favicon.png
   #safari_pinned_tab: /logo.svg
   #android_manifest: /manifest.json
   #ms_browserconfig: /browserconfig.xml
@@ -27,7 +27,7 @@ darkmode: false
 
 # By default the page will automatically scroll to the last viewed position
 # if `false`, automatic positioning will be turned off
-auto_scroll: false
+auto_scroll: true
 
 # Whether to show the loading cat
 loader:
@@ -38,10 +38,10 @@ loader:
 fireworks:
   enable: true
   color:
-    - "rgba(255,182,185,.9)"
-    - "rgba(250,227,217,.9)"
-    - "rgba(187,222,214,.9)"
-    - "rgba(138,198,209,.9)"
+    - "rgba(152, 186, 227, .9)"
+    - "rgba(89, 129, 177, .9)"
+    - "rgba(54, 84, 117, .9)"
+    - "rgba(21, 39, 60, .9)"
 
 font:
   enable: true
@@ -114,9 +114,9 @@ social:
   about: https://about.me/PompaDonpa || address-card || "#3b5998"
   #email: mailto:PompaDonpa@mail.com || envelope || "#55acd5"
   #facebook: https://www.facebook.com/PompaDonpa || facebook
-  stackoverflow: https://stackoverflow.com/PompaDonpa || stack-overflow || "#3b5998"
-  youtube: https://youtube.com/PompaDonpa || youtube || "#3b5998"
-  instagram: https://instagram.com/PompaDonpa || instagram || "#3b5998"
+  stackoverflow: https://stackoverflow.com/PompaDonpa || stack-overflow || "#F99157"
+  youtube: https://youtube.com/PompaDonpa || youtube || "#EC5f67"
+  instagram: https://instagram.com/PompaDonpa || instagram || "#E1306C"
   #skype: skype:PompaDonpa?call|chat || skype
   #douban: https://www.douban.com/people/PompaDonpa/ || douban
 
@@ -140,7 +140,7 @@ footer:
   icon:
     name: sakura rotate
     # Change the color of icon, using Hex Code.
-    color: "#ffc0cb"
+    color: "#FAC863"
   # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
   count: true
   powered: true
