@@ -96,7 +96,7 @@ menu:
     archives: /archives/ || list-alt
     categories: /categories/ || th
     tags: /tags/ || tags
-  friends: /friends/ || heart
+  friends: /friends/ || paw
   links: /links/ || magic
 
 # Social Links
@@ -168,6 +168,8 @@ tagcloud:
   amount: 200 # Amount of tags, change it if you have more than 200 tags
 
 
+
+
 # ---------------------------------------------------------------
 # Third Party Plugins & Services Settings
 # ---------------------------------------------------------------
@@ -188,7 +190,9 @@ valine:
   appId: AawwbH8AvSt9fvvd5gTLSmfO-MdYXbMMI
   appKey: q6VhPeT4rOtjOqPdFhtHlAla
   placeholder: 'Comments'
-  avatar: '' # Gravatar style : mp, identicon, monsterid, wavatar, robohash, retro
+  avatar: mm # Gravatar style : mp, identicon, monsterid, wavatar, robohash, retro
+  avatarForce : true
+  emojiCDN : '//cdn.jsdelivr.net/gh/zhheo/Sticker-Heo@latest/Sticker-100/'
   pageSize: 10 # Pagination size
   lang: en
   visitor: true # Article reading statistic
