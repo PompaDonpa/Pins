@@ -175,7 +175,6 @@ tagcloud:
 
 
 
-
 # ---------------------------------------------------------------
 # Third Party Plugins & Services Settings
 # ---------------------------------------------------------------
@@ -236,6 +235,7 @@ audio:
 
 # random image api
 image_server: # "https://acg.xydwz.cn/api/api.php"
+# image_server: "https://images"
 
 # Algolia Search
 # For more information: https://www.algolia.com
