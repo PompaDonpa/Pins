@@ -96,6 +96,7 @@ menu:
     default: / || feather
     archives: /archives/ || list-alt
     categories: /categories/ || th
+    Code: /code/ || paw
     Resources : /resources/ || sitemap
     tags: /tags/ || tags
   Projects: /projects/ || flag
@@ -139,10 +140,15 @@ widgets:
   # if true, will show recent comments
   recent_comments: true
 
+
+
+
+language_switcher : true
+
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
   since: 2020
-  copyright: Daniel Naranjo
+  copyright: Yume Shoka
   icon:
     name: sakura rotate
     # Change the color of icon, using Hex Code.
