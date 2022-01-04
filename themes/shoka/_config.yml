@@ -27,7 +27,7 @@ darkmode: false
 
 # By default the page will automatically scroll to the last viewed position
 # if `false`, automatic positioning will be turned off
-auto_scroll: true
+auto_scroll: false
 
 # Whether to show the loading cat
 loader:
@@ -91,13 +91,19 @@ iconfont: "1832207_igi8uaupcus"
 menu:
   home: / || home
   about: /about/ || user
+  Contact : /contact/ || address-card
   posts:
     default: / || feather
     archives: /archives/ || list-alt
     categories: /categories/ || th
+    Resources : /resources/ || sitemap
     tags: /tags/ || tags
-  friends: /friends/ || paw
-  links: /links/ || magic
+  Projects: /projects/ || flag
+  Stock Footage : /stock/ || eye
+  WebStack: /webstack/ || magic
+  WhiteBoard : /whiteboard/ || zhihu
+
+
 
 # Social Links
 # Usage: `Key: permalink || icon || color`
@@ -189,7 +195,7 @@ creative_commons:
 valine:
   appId: AawwbH8AvSt9fvvd5gTLSmfO-MdYXbMMI
   appKey: q6VhPeT4rOtjOqPdFhtHlAla
-  placeholder: 'Comments'
+  placeholder: "\tIf you don't believe in God, then the God concept is \n\ta great placeholder for everything we don't know,\n\twhich is exponentially more than we do know.\n\n\t\t\t\t\t\t\t\t - Bryant McGill"
   avatar: mm # Gravatar style : mp, identicon, monsterid, wavatar, robohash, retro
   avatarForce : true
   emojiCDN : '//cdn.jsdelivr.net/gh/zhheo/Sticker-Heo@latest/Sticker-100/'
