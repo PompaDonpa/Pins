@@ -1,15 +1,15 @@
 name: English
 
 favicon:
-  show: （●´3｀●）Goooood
-  hide: (´Д｀)Booooom
+  show: ٩(^‿^)۶
+  hide: ᒡ◯ᵔ◯ᒢ 
 
 title:
   archive: Archive
   category: Category
   tag: Tag
   all: All
-  not_found: Σ( ° △ °|||)︴404!
+  not_found: (✖╭╮✖) 404!
   category_in: Posted in category "%s"
   tag_in: Posted with tag "%s"
   archive_in: Posted on "%s"
@@ -29,9 +29,9 @@ sidebar:
   related: Related
 
 index:
-  sticky: Sticky Posts
+  sticky: Top Article
   category: Categories
-  posts: Post List
+  posts: Recent Posts
   random_posts: Random Posts
   recent_comments: Recent Comments
 
@@ -53,7 +53,7 @@ post:
     author: Post author
     link: Post link
     license_title: Copyright Notice
-    license_content: "All articles in this blog are licensed under %s unless stating additionally."
+    license_content: "All articles in this blog are licensed under %s unless stated additionally."
     nocopy: "<span class=\"red\">This page is prohibited reprint.</span>"
 
 footer:
@@ -106,8 +106,8 @@ symbol:
   month: "M"
 
 reward:
-  donate: Donate
-  text: Give me a cup of [coffee]~(￣▽￣)~*
+  donate: Sponsor
+  text: You enjoy my work and want to support it. From one developer to the next, I thank you.
   wechatpay: WeChat Pay
   alipay: Alipay
   paypal: PayPal
