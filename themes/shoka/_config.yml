@@ -194,8 +194,8 @@ reward:
 # TagCloud settings for tags page.
 tagcloud:
   # All values below are same as default, change them by yourself.
-  min: 16 # Minimun font size in px
-  max: 22 # Maxium font size in px
+  min: 22 # Minimun font size in px
+  max: 36 # Maxium font size in px
   start: "#72cecf" # Start color (hex, rgba, hsla or color keywords)
   end: "#ffbac3" # End color (hex, rgba, hsla or color keywords)
   amount: 200 # Amount of tags, change it if you have more than 200 tags
@@ -305,17 +305,6 @@ google_site_verification:
 # Bing Webmaster tools verification.
 # See: https://www.bing.com/webmaster
 bing_site_verification:
-
-# Yandex Webmaster tools verification.
-# See: https://webmaster.yandex.ru
-yandex_site_verification:
-
-# Baidu Webmaster tools verification.
-# See: https://ziyuan.baidu.com/site
-baidu_site_verification:
-
-# Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
-baidu_push: false
 
 
 #! ---------------------------------------------------------------
