@@ -180,9 +180,9 @@ githubcalendar:
 #   chunkSize: 5000
 #   indexName:
 #   fields:
-#     - title #必须配置
-#     - path #必须配置
-#     - categories #推荐配置
+#     - title
+#     - path 
+#     - categories
 #     - content:strip:truncate,0,4000
 #     - gallery
 #     - photos
