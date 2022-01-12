@@ -100,6 +100,10 @@ category_map:
   Bitcoin: btc
 
 tag_map:
+  Version Control: version-control
+  Tutorial: tutorial
+  GitHub: github
+  Testing: testing
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta

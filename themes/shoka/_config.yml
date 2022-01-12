@@ -226,7 +226,6 @@ valine:
   placeholder: "\tIf you don't believe in God, then the God concept is \n\ta great placeholder for everything we don't know,\n\twhich is exponentially more than we do know.\n\n\t\t\t\t\t\t\t\t - Bryant McGill"
   avatar: mm # Gravatar style : mp, identicon, monsterid, wavatar, robohash, retro
   avatarForce : true
-  emojiCDN : '//cdn.jsdelivr.net/gh/zhheo/Sticker-Heo@latest/Sticker-100/'
   pageSize: 10 # Pagination size
   lang: en
   visitor: true # Article reading statistic
@@ -236,7 +235,7 @@ valine:
   tagMeta:
     visitor: Nanashi
     master: Shogun
-    friend:
+    friend: Hanso
     investor: Munehisa Homma
   tagColor:
     master: "var(--color-orange)"
@@ -305,6 +304,20 @@ google_site_verification:
 # Bing Webmaster tools verification.
 # See: https://www.bing.com/webmaster
 bing_site_verification:
+
+
+
+mathjax:
+  tags: none # or 'ams' or 'all'
+  single_dollars: true # enable single dollar signs as in-line math delimiters
+  cjk_width: 0.9 # relative CJK char width
+  normal_width: 0.6 # relative normal (monospace) width
+  append_css: true # add CSS to pages rendered by MathJax
+  every_page: false # if true, every page will be rendered by MathJax regardless the `mathjax` setting in Front-matter
+  extension_options: {}
+    # you can put your extension options here
+    # see http://docs.mathjax.org/en/latest/options/input/tex.html#tex-extension-options for more detail
+
 
 
 #! ---------------------------------------------------------------

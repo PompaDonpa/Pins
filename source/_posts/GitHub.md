@@ -1,13 +1,16 @@
 ---
-title: GitHub Projects | OpenSource
-date: 2022-01-03 23:28:33
-type: projects
-
+title: GitHub
+date: 2022-01-12 10:52:41
+tags: version-control
+category: 
+comment: false
+audio: 
+  - HTTPS : //iheart.com/live/hot-97-6046/
 
 githubcalendar:
   enable: true
   priority: 0
-  enable_page: /projects
+  enable_page: /
   user: PompaDonpa
   layout:
     type: class
@@ -21,7 +24,18 @@ githubcalendar:
   # api: https://python-gitee-calendar-api.vercel.app/api
   calendar_js: https://cdn.jsdelivr.net/gh/Zfour/hexo-github-calendar@1.21/hexo_githubcalendar.js
   plus_style: ""
+
+mathjax: true
 ---
 
-# Projects of Daniel Naranjo
+{% calendar %}
+{"monthLang": "en", "dayLang": "en", "title": "PompaDonpa", "weeks": 40, "width": "600", "height": "185"}
+{% endcalendar %}
 
+
+$\displaystyle \lim_{t \to 0} \int_t^1 f(t)\, dt$
+
+
+$$
+P(X \le k) = \sum_{i=0}^k {n \choose i}p^i(1-p)^{n-i}
+$$
