@@ -1012,6 +1012,13 @@
     "resolve" "^1.11.0"
     "tildify" "^2.0.0"
 
+"hexo-filter-emoji@^2.2.2":
+  "integrity" "sha512-/RE4HB5OPucFiy3ynT0AAdGpIwioVRhn74IvoAfL8I23DJK5gTRBwUDcu+Gx+O+U1OUXfwX2AkJtXVtEGVftng=="
+  "resolved" "https://registry.npmjs.org/hexo-filter-emoji/-/hexo-filter-emoji-2.2.2.tgz"
+  "version" "2.2.2"
+  dependencies:
+    "lodash" "4.17.21"
+
 "hexo-filter-mathjax@^0.8.0":
   "integrity" "sha512-mYghPfGtIyVuuFZW8BIPmPY/eUSKpuflflKLNhPMe/t0ZdInBPhbErXA8XDbfV6VIjIFqQ77HjlHQ4F7/S9EwQ=="
   "resolved" "https://registry.npmjs.org/hexo-filter-mathjax/-/hexo-filter-mathjax-0.8.0.tgz"
@@ -1458,6 +1465,11 @@
   "version" "5.0.0"
   dependencies:
     "p-locate" "^4.1.0"
+
+"lodash@4.17.21":
+  "integrity" "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
+  "resolved" "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
+  "version" "4.17.21"
 
 "longest@^1.0.1":
   "integrity" "sha1-MKCy2jj3N3DoKUoNIuZiXtd9AJc="

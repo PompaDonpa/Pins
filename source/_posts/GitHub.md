@@ -5,37 +5,126 @@ tags: version-control
 category: 
 comment: false
 audio: 
-  - HTTPS : //iheart.com/live/hot-97-6046/
-
-githubcalendar:
-  enable: true
-  priority: 0
-  enable_page: /
-  user: PompaDonpa
-  layout:
-    type: class
-    name: main-inner
-    index: 0
-  githubcalendar_html: '<div class="post-block animated fadeIn" style="width:100%;height:auto;padding:40px 10px 10px 10px;"><div id="github_loading" style="height:100%;display: flex;align-items: center;justify-content: center;"><svg style="height:50px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 50 50" style="enable-background:new 0 0 50 50" xml:space="preserve"><path fill="#d0d0d0" d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z" transform="rotate(275.098 25 25)"><animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="0.6s" repeatCount="indefinite"></animateTransform></path></svg></div><div id="github_container"></div></div><footer class="post-footer"><div class="post-eof"></div></footer>'
-  pc_minheight: 280px
-  mobile_minheight: 0px
-  color: "['#ebedf0', '#fafbfc', '#f6f8fa', '#e1e4e8', '#d1d5da', '#959da5', '#6a737d', '#586069', '#444d56', '#2f363d', '#24292e']"
-  api: https://python-github-calendar-api.vercel.app/api
-  # api: https://python-gitee-calendar-api.vercel.app/api
-  calendar_js: https://cdn.jsdelivr.net/gh/Zfour/hexo-github-calendar@1.21/hexo_githubcalendar.js
-  plus_style: ""
+  - HTTPS: //iheart.com/live/hot-97-6046/
 
 mathjax: true
+description: This is a all page
+fancybox: true
 ---
+
+
+This is a test!!
+
 
 {% calendar %}
 {"monthLang": "en", "dayLang": "en", "title": "PompaDonpa", "weeks": 40, "width": "600", "height": "185"}
 {% endcalendar %}
 
 
-$\displaystyle \lim_{t \to 0} \int_t^1 f(t)\, dt$
+\begin{eqnarray\*}
+\nabla\cdot\vec{E}&=&\frac{\rho}{\epsilon_0}\\\\
+\nabla\cdot\vec{B}&=&0\\\\
+\nabla\times\vec{E}&=&-\frac{\partial B}{\partial t}\\\\
+\nabla\times\vec{B}&=&\mu_0\left(\vec{J}+\epsilon_0\frac{\partial E}{\partial t}\right)\\\\
+\end{eqnarray\*}ß
 
 
-$$
-P(X \le k) = \sum_{i=0}^k {n \choose i}p^i(1-p)^{n-i}
-$$
+:sparkles:
+
+:dolls:
+
+
+
+{% linksfile links/_data.yml %}
+
+
+++underscore++
+++wavy line++{.wavy}
+++focus++{.dot}
+++purple underline++{.primary}
+++green wavy line++{.wavy .success}
+++yellow accent++{.dot .warning}
+~~strikethrough~~
+~~Red strikethrough~~{.danger}
+==Fluorescent Highlights==
+[red orange yellow green blue purple]{.rainbow}
+[red]{.red}
+[pink]{.pink}
+[orange]{.orange}
+[yellow]{.yellow}
+[green]{.green}
+[indigo]{.aqua}
+[blue]{.blue}
+[purple]{.purple}
+[grey]{.grey}
+Shortcut [Ctrl]{.kbd} + [C]{.kbd .red}
+H~2~0
+29^th^
+
+
+
+
+
+	
+!!Shady Shady Shady Shady Shady Shady!! : Mouse over to display content
+
+[Blur, blur, blur, blur, blur, blur]{.blur} : Selected text to display content
+
+
+
+[default]{.label}
+[primary]{.label .primary}
+[info]{.label .info}
+[:heavy_check_mark:success]{.label .success}
+[warning]{.label .warning}
+[:broken_heart: danger]{.label .danger}
+
+
+
+
+
+````java line highlight https://shoka.lostyu.me Reference link mark:1,6-7
+import java.util.Scanner;
+...
+Scanner in = new Scanner(System.in);
+// After entering Scan, press the keyboard Alt + "/" key to automatically complete under Eclipse.
+System.out.println(in.nextLine());
+System.out.println("Hello" + "world.");
+````
+```bash command line prompt command:("[root@localhost] $":1,9-10||"[admin@remotehost] #":4-6)
+pwd
+/usr/home/chris/bin
+ls -la
+total 2
+drwxr-xr-x 2 chris chris 11 Jan 10 16:48 .
+drwxr--rx 45 chris chris 92 Feb 14 11:10 ..
+-rwxr-xr-x 1 chris chris 444 Aug 25 2013 backup
+-rwxr-xr-x 1 chris chris 642 Jan 17 14:42 deploy
+git add -A
+git commit -m "update"
+git push
+````
+
+
+
+:::default
+default default
+:::
+:::primary
+basic basic
+:::
+:::info
+hint hint
+:::
+:::success
+success success
+:::
+:::warning
+warning warning
+:::
+:::danger
+Dangerous danger
+:::
+:::danger no-icon
+Dangerous danger
+:::
