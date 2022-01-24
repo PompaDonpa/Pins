@@ -224,7 +224,7 @@ valine:
   appId: AawwbH8AvSt9fvvd5gTLSmfO-MdYXbMMI
   appKey: q6VhPeT4rOtjOqPdFhtHlAla
   placeholder: "\tIf you don't believe in God, then the God concept is \n\ta great placeholder for everything we don't know,\n\twhich is exponentially more than we do know.\n\n\t\t\t\t\t\t\t\t - Bryant McGill"
-  avatar:  mp # Gravatar style : mp, identicon, monsterid, wavatar, robohash, retro
+  avatar:  mm # Gravatar style : mp, identicon, monsterid, wavatar, robohash, retro
   avatarForce : true
   pageSize: 10 # Pagination size
   lang: en
@@ -315,7 +315,6 @@ emoji:
     # font-weight: bold
   customEmojis:
     
-fancybox: true
 
 tabs:
   # Make the nav bar of tabs with long content stick to the top.

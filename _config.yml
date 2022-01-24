@@ -197,7 +197,7 @@ autoprefixer:
 # opitions for renderer
 markdown:
   render:
-    html: true
+    html: false
     xhtmlOut: true
     breaks: true
     linkify: true
