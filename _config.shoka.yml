@@ -15,8 +15,8 @@ timezone: 'America/New_York'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://daniel-naranjo.dev
-root: /
+url: https://pompadonpa.github.io/Pins
+root: /Pins
 permalink: :title-:hash/ #:year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -203,8 +203,13 @@ theme: shoka
 ## ---------------------------------------------------------------
 
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/PompaDonpa/Pins
+  branch: [gh-pages]
+  name: [PompaDonpa]
+  email: [pompadonpa@dotsmapsweb.com]
 
+# avatar: 
 autoprefixer:
   exclude :
     - '*.min.css'

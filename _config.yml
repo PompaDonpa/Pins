@@ -191,6 +191,10 @@ deploy:
   type: git
   repo: https://github.com/PompaDonpa/Pins
   branch: [gh-pages]
+  name: [PompaDonpa]
+  email: [pompadonpa@dotsmapsweb.com]
+
+# avatar: 
 
 autoprefixer:
   exclude :
